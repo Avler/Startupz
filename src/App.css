@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+  @apply pl-6 sm:pl-8 lg:pl-[0] xl:pl-[120px];
+}
+
+.text-orange {
+  @apply text-xs leading-[16px] text-Orange my-2 sm:text-[16px] sm:leading-[22px] lg:text-[20px] xl:text-[22px] xl:font-[500];
+}
+
+.section-title {
+  @apply text-customGray font-bold xl:text-[50px];
+}
+
+.orange-number {
+  @apply text-[16px] text-Orange md:text-[20px] xl:text-3xl xl:font-semibold;
+}
+
+.gray-line {
+  @apply border-b-[1px] border-customGray w-[20px] xl:w-[45px];
+}
+
+.des-text {
+  @apply text-customGray  text-center md:text-[20px] md:text-left xl:text-3xl xl:font-semibold xl:pt-[10px];
+}
