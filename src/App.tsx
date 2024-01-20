@@ -1,9 +1,7 @@
-import React, { useState } from "react";
-
+import { useState } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
-
+import { Link as ScrollLink } from "react-scroll";
 import logo from "./assets/logo.svg";
 import heroImg from "./assets/heroImg.webp";
 import questionImg from "./assets/question.svg";
