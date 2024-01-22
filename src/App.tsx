@@ -74,7 +74,7 @@ function App() {
                 Contact
               </ScrollLink>
             </li>
-            <li className="text-customGray cursor-pointer">
+            <li className="flex items-center justify-center text-Blue font-semibold cursor-pointer w-[185px] h-[45px]  rounded-[32.50px] border border-Blue">
               <ScrollLink to="workWithUs" smooth={true} duration={500}>
                 Work with Us
               </ScrollLink>
